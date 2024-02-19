@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+body {
+    background-color: #181818;
+}
+#inputText {
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #181818;
+}
+
+
+button {
+    width: 150px;
+    margin: 15px 0 0 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: pink;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Стилизация блока вывода */
+#output {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}
